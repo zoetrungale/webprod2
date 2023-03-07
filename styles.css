@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.transition {
+  transition: transform 50ms;
+}
+
+.transition:hover {
+  transform: skew(30deg, 20deg);
+  
+}
+
+.flip{
+  transition: transform 50ms;
+
+}
+
+.flip:hover{
+  font-size: xx-small;
+}
