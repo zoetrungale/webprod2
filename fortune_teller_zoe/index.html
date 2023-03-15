@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <script src="utility.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title> Fortune Teller </title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title"> Fortune Teller </h1>
+    <section> 
+      <p> Pick a number (1-100):  <input type="number" id="pickNumber" value="0" max="100"></p>
+      <p> Pick another number (1-10):  <input type="number" id="pickNumber2" value="0" max="10"></p>
+      <p> Enter your name: <input type="text" id="userName"></p>
+      <p><button onclick="getFortune()"> Get My Fortune!</button></p>
+      <p id="fortune"></p>
+    </section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
